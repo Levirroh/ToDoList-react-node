@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 function Header({ title, onToggleMenu, team, color }) {
   const [OpenMenu, setOpenMenu] = useState(false);

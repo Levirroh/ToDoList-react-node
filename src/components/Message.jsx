@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 function Message({message, user}) {
     if(user.id_user == message.id_user){

@@ -1,5 +1,4 @@
 import React from "react";
-import { data } from "react-router-dom";
 
 function Card({ to, text, onClick, color, borderColor, textColor, data1, data2, data3, gradientFrom, gradientTo, type }) {
     const borderClass = borderColor ? borderColor : "border-blue-600";

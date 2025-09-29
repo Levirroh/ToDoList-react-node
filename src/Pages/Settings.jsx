@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
 import Config from "../components/Config";
 import Header from "../components/Header";

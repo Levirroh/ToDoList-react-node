@@ -1,5 +1,4 @@
 import React from "react";
-import { transformWithEsbuild } from "vite";
 
 function Config({ name_setting, value_setting, options_setting = null}) {
     return(

@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import config_icon from "../images/config_icon.svg";
+import React from "react";
 function ChatIcon({
   idChat,
   nomeDoTime,
