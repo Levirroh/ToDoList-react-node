@@ -186,18 +186,8 @@ function App() {
             })}
           </div>
         </div>
-        </div>
-        <div>
-          <h2 className="text-2xl font-bold text-blue-900 mb-4">Outros</h2>
-          <Card
-            text="Configurações"
-            gradientFrom="from-black"
-            gradientTo="to-purple-600"
-            to="/settings"
-          />
-        </div>
-
       </div>
+    </div>
     </section>
   </section>
 

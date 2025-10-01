@@ -42,22 +42,6 @@ export const login_user = async (req, res) => {
     });
 };
 
-export const get_user_settings = async (req, res) => {
-    const { id_user } = req.body;
-
-    const query = "SELECT * FROM user_preferences INNER JOIN options_user_preferences ON options_user_preferences.id_user_preference = user_preferences.id_user_preference WHERE id_user = ?";
-    const values = [id_user];
-
-    con.query(query, values, (err, result) => {
-        if (err) {
-            console.error("Erro ao buscar configurações:", err);
-            return res.status(500).json({ error: "Erro ao buscar configurações:" });
-        }
-        return res.status(200).json(result)
-
-    });
-};
-
 export const get_user_notifications = async (req, res) => {
     const { id_user } = req.body;
 
